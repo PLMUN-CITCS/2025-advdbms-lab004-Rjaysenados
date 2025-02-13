@@ -1,2 +1,7 @@
 ALTER TABLE `Students`
-   `Email` VARCHAR(100);
+   `StudentID` INT AUTO_INCREMENT PRIMARY KEY,
+   `FirstName` VARCHAR(50) NOT NULL,
+   `LastName` VARCHAR(50) NOT NULL,
+   `EnrollmentDate` DATE
+   `Email` VARCHAR(100)
+);
